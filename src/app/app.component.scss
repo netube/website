@@ -1,0 +1,46 @@
+.fill-remaining-space {
+        flex: 1 1 auto;
+}
+
+img.logo-mark {
+        width: 1.2em;
+        padding-right: 0.3em;
+}
+img.store-badge {
+        width: 6em;
+}
+
+img.card-image {
+        width: 100%;
+}
+
+div.center-align {
+        text-align: center;
+}
+
+div.card-text-content {
+        font-size: 1.1em;
+        line-height: 1.6em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+}
+
+div.footer-note-text {
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 0.5em;
+        line-height: 1.6em;
+}
+
+div.markdown-content {
+        padding-left: 15%;
+        padding-right: 15%;
+}
+
+a.light-color {
+        text-decoration: none;
+        color: #ffffff;
+}
+a.light-color:hover {
+        color: lightskyblue;
+}
