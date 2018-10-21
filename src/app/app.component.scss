@@ -42,5 +42,17 @@ a.light-color {
         color: #ffffff;
 }
 a.light-color:hover {
-        color: lightskyblue;
+        color: #eeeeee;
+}
+
+a.menu-button {
+        display: inline-block;
+        font-size: 0.7em;
+        font-weight: normal;
+        color: #ffffff;
+        padding-left: 2em;
+        padding-right: 2em;
+}
+a.menu-button:hover {
+        color: #eeeeee;
 }
