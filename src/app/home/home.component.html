@@ -4,7 +4,6 @@
                 <a class="menu-button" routerLink="{{ features }}">Features</a>
                 <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
                 <a class="menu-button" routerLink="{{ download }}">Download</a>
-                <a class="menu-button" routerLink="{{ help }}">Help</a>
                 <span class="fill-remaining-space"></span>
                 <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
         </mat-toolbar>
@@ -14,20 +13,23 @@
         <mat-toolbar-row>
                 <a class="menu-button" routerLink="{{ home }}">Netube</a>
                 <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ features }}">Features</a>
+                <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
         </mat-toolbar-row>
         <mat-toolbar-row>
-                <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
+                <a class="menu-button" routerLink="{{ features }}">Features</a>
                 <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ help }}">Help</a>
+                <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
         </mat-toolbar-row>
         <mat-toolbar-row>
                 <a class="menu-button" routerLink="{{ download }}">Download</a>
-                <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
         </mat-toolbar-row>
 </mat-toolbar>
 
+<mat-card>
+        <mat-card-content>
+                <br>
+        </mat-card-content>
+</mat-card>
 <mat-card>
         <mat-card-content>
                 <div class="center-align">
@@ -35,6 +37,21 @@
                                 Netube is a open source sock5 proxy tool.
                                 <br>
                                 A multi-platform lightweight network tool.
+                        </div>
+                </div>
+        </mat-card-content>
+</mat-card>
+<mat-card>
+        <mat-card-content>
+                <br>
+        </mat-card-content>
+</mat-card>
+
+<mat-card>
+        <mat-card-content>
+                <div class="center-align">
+                        <div class="heading-card-text-content">
+                                Netube desktop client apps
                         </div>
                 </div>
         </mat-card-content>
@@ -142,6 +159,136 @@
                 </mat-card>
         </div>
 </div>
+<mat-card>
+        <mat-card-content>
+                <div class="center-align">
+                        <div class="card-text-content">
+                                <br>
+                        </div>
+                </div>
+        </mat-card-content>
+</mat-card>
+<mat-card>
+        <mat-card-content>
+                <div class="center-align">
+                        <div class="heading-card-text-content">
+                                Browser Extensions
+                        </div>
+                </div>
+        </mat-card-content>
+</mat-card>
+
+<div fxLayout fxLayout.lt-sm="column" fxLayoutAlign="center">
+        <div fxFlex="25%">
+                <mat-card>
+                        <mat-card-header>
+                                <mat-card-title>Netube extension for Firefox</mat-card-title>
+                                <mat-card-subtitle>
+                                        <a href="{{ netubeOnGooglePlay }}" mat-button>
+                                                <img class="store-badge" alt="Netube on Google Play" src="images/badge-google-play.png">
+                                        </a>
+                                        <a href="{{ download }}/android" mat-button>Download</a>
+                                </mat-card-subtitle>
+                        </mat-card-header>
+                        <img class="card-image" matCardImage src="images/screenshot-android.png">
+                        <mat-card-content>
+                                Android 9+
+                        </mat-card-content>
+                        <mat-card-actions align="start">
+                                <a routerLink="{{ sources }}/android"  mat-button>
+                                        <img class="logo-mark" alt="source code" src="images/icon-source-code.png">Source Code
+                                </a>
+                                <a href="{{ netubeOnGithub }}/netube/netube-android" mat-button>
+                                        <img class="logo-mark" alt="netube-android" src="images/mark-github.png">GitHub
+                                </a>
+                        </mat-card-actions>
+                </mat-card>
+        </div>
+        <div fxFlex="25%">
+                <mat-card>
+                        <mat-card-header>
+                                <mat-card-title>Netube extension for Brave</mat-card-title>
+                                <mat-card-subtitle>
+                                        <a href="{{ netubeOnAppStore }}" mat-button>
+                                                <img class="store-badge" alt="Netube on App Store" src="images/badge-app-store.png">
+                                        </a>
+                                        <a href="{{ download }}/ios" mat-button>Download</a>
+                                </mat-card-subtitle>
+                        </mat-card-header>
+                        <img class="card-image" matCardImage src="images/screenshot-iphone-x.png">
+                        <mat-card-content>
+                                iOS 12+
+                        </mat-card-content>
+                        <mat-card-actions align="start">
+                                <a routerLink="{{ sources }}/ios"  mat-button>
+                                        <img class="logo-mark" alt="source code" src="images/icon-source-code.png">Source Code
+                                </a>
+                                <a href="{{ netubeOnGithub }}/netube-ios" mat-button>
+                                        <img class="logo-mark" alt="netube-ios" src="images/mark-github.png">GitHub
+                                </a>
+                        </mat-card-actions>
+                </mat-card>
+        </div>
+        <div fxFlex="25%">
+                <mat-card>
+                        <mat-card-header>
+                                <mat-card-title>Netube extension for Safari</mat-card-title>
+                                <mat-card-subtitle>
+                                        <a href="{{ netubeOnMacAppStore }}" mat-button>
+                                                <img class="store-badge" alt="Netube on Mac App Store" src="images/badge-mac-app-store.png">
+                                        </a>
+                                        <a href="{{ download }}/macosx" mat-button>Download</a>
+                                </mat-card-subtitle>
+                        </mat-card-header>
+                        <img class="card-image" matCardImage src="images/netube-logo.png">
+                        <mat-card-content>
+                                macOS 10.14+
+                        </mat-card-content>
+                        <mat-card-actions align="start">
+                                <a routerLink="{{ sources }}/macosx"  mat-button>
+                                        <img class="logo-mark" alt="source code" src="images/icon-source-code.png">Source Code
+                                </a>
+                                <a href="{{ netubeOnGithub }}/netube-macosx" mat-button>
+                                        <img class="logo-mark" alt="netube-macosx" src="images/mark-github.png">GitHub
+                                </a>
+                        </mat-card-actions>
+                </mat-card>
+        </div>
+        <div fxFlex="25%">
+                <mat-card>
+                        <mat-card-header>
+                                <mat-card-title>Netube extension for Chrome</mat-card-title>
+                                <mat-card-subtitle>
+                                        <a href="{{ netubeOnMicrosoftStore }}" mat-button>
+                                                <img class="store-badge" alt="Netube on Windows Micosoft Store" src="images/badge-microsoft-store.png">
+                                        </a>
+                                        <a href="{{ download }}/windows" mat-button>Download</a>
+                                </mat-card-subtitle>
+                        </mat-card-header>
+                        <img class="card-image" matCardImage src="images/netube-logo.png">
+                        <mat-card-content>
+                                Windows 10 (1809+), 64-bit
+                        </mat-card-content>
+                        <mat-card-actions align="start">
+                                <a routerLink="{{ sources }}/windows"  mat-button>
+                                        <img class="logo-mark" alt="source code" src="images/icon-source-code.png">Source Code
+                                </a>
+                                <a href="{{ netubeOnGithub }}/netube-windows" mat-button>
+                                        <img class="logo-mark" alt="netube-windows" src="images/mark-github.png">GitHub
+                                </a>
+                        </mat-card-actions>
+                </mat-card>
+        </div>
+</div>
+<mat-card>
+        <mat-card-content>
+                <div class="center-align">
+                        <div class="card-text-content">
+                                <br>
+                        </div>
+                </div>
+        </mat-card-content>
+</mat-card>
 
 <mat-card>
         <mat-card-content>
@@ -150,6 +297,11 @@
                                 Win win win! We're going to win so mush! Make America Great Again! I'm a very stable genius.
                         </div>
                 </div>
+        </mat-card-content>
+</mat-card>
+<mat-card>
+        <mat-card-content>
+                <br>
         </mat-card-content>
 </mat-card>
 
