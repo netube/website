@@ -1,30 +1,30 @@
 <div fxShow="true" fxHide.lt-sm="true">
         <mat-toolbar color="primary">
-                <a routerLink="{{ home }}" mat-button>Netube</a>
-                <a routerLink="{{ features }}" mat-button>Features</a>
-                <a routerLink="{{ documentation }}" mat-button>Documentation</a>
-                <a routerLink="{{ download }}" mat-button>Download</a>
-                <a routerLink="{{ help }}" mat-button>Help</a>
+                <a class="menu-button" routerLink="{{ home }}">Netube</a>
+                <a class="menu-button" routerLink="{{ features }}">Features</a>
+                <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
+                <a class="menu-button" routerLink="{{ download }}">Download</a>
+                <a class="menu-button" routerLink="{{ help }}">Help</a>
                 <span class="fill-remaining-space"></span>
-                <a routerLink="{{ sources }}" mat-button>Source Code</a>
+                <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
         </mat-toolbar>
 </div>
 
 <mat-toolbar color="primary" fxLayout="column" fxHide.gt-xs="true">
         <mat-toolbar-row>
-                <a routerLink="{{ home }}" mat-button>Netube</a>
+                <a class="menu-button" routerLink="{{ home }}">Netube</a>
                 <span class="fill-remaining-space"></span>
-                <a routerLink="{{ features }}" mat-button>Features</a>
+                <a class="menu-button" routerLink="{{ features }}">Features</a>
         </mat-toolbar-row>
         <mat-toolbar-row>
-                <a routerLink="{{ documentation }}" mat-button>Documentation</a>
+                <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
                 <span class="fill-remaining-space"></span>
-                <a routerLink="{{ help }}" mat-button>Help</a>
+                <a class="menu-button" routerLink="{{ help }}">Help</a>
         </mat-toolbar-row>
         <mat-toolbar-row>
-                <a routerLink="{{ download }}" mat-button>Download</a>
+                <a class="menu-button" routerLink="{{ download }}">Download</a>
                 <span class="fill-remaining-space"></span>
-                <a routerLink="{{ sources }}" mat-button>Source Code</a>
+                <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
         </mat-toolbar-row>
 </mat-toolbar>
 
@@ -155,10 +155,10 @@
 
 <div fxShow="true" fxHide.lt-sm="true">
         <mat-toolbar color="primary">
-                <a routerLink="{{ about }}" mat-button>About</a>
-                <a routerLink="{{ blog }}" mat-button>Blog</a>
-                <a routerLink="{{ privacy }}" mat-button>Privacy Policy</a>
-                <a routerLink="{{ terms }}" mat-button>Terms of Use</a>
+                <a class="menu-button" routerLink="{{ about }}">About</a>
+                <a class="menu-button" routerLink="{{ blog }}">Blog</a>
+                <a class="menu-button" routerLink="{{ privacy }}">Privacy Policy</a>
+                <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
                 <span class="fill-remaining-space"></span>
                 <div class="footer-note-text">
                         Copyright © {{ copyrightYears }} <a class="light-color" href="https://djeung.org">Bing Djeung</a>
@@ -170,14 +170,14 @@
 
 <mat-toolbar color="primary" fxLayout="column" fxHide.gt-xs="true">
         <mat-toolbar-row>
-                <a routerLink="{{ about }}" mat-button>About</a>
+                <a class="menu-button" routerLink="{{ about }}">About</a>
                 <span class="fill-remaining-space"></span>
-                <a routerLink="{{ blog }}" mat-button>Blog</a>
+                <a class="menu-button" routerLink="{{ blog }}">Blog</a>
         </mat-toolbar-row>
         <mat-toolbar-row>
-                <a routerLink="{{ privacy }}" mat-button>Privacy Policy</a>
+                <a class="menu-button" routerLink="{{ privacy }}">Privacy Policy</a>
                 <span class="fill-remaining-space"></span>
-                <a routerLink="{{ terms }}" mat-button>Terms of Use</a>
+                <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
         </mat-toolbar-row>
         <mat-toolbar-row>
                 <span class="fill-remaining-space"></span>
@@ -188,4 +188,5 @@
                 </div>
                 <span class="fill-remaining-space"></span>
         </mat-toolbar-row>
+        <mat-toolbar-row></mat-toolbar-row>
 </mat-toolbar>
