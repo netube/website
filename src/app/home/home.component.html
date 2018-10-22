@@ -1,29 +1,41 @@
 <div fxShow="true" fxHide.lt-sm="true">
-        <mat-toolbar color="primary">
-                <a class="menu-button" routerLink="{{ home }}">Netube</a>
-                <a class="menu-button" routerLink="{{ features }}">Features</a>
-                <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
-                <a class="menu-button" routerLink="{{ download }}">Download</a>
-                <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
-        </mat-toolbar>
+        <ul class="toolbar">
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ home }}">Netube</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ features }}">Features</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ download }}">Download</a>
+                </li>
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
+                </li>
+        </ul>
 </div>
-
-<mat-toolbar color="primary" fxLayout="column" fxHide.gt-xs="true">
-        <mat-toolbar-row>
-                <a class="menu-button" routerLink="{{ home }}">Netube</a>
-                <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
-        </mat-toolbar-row>
-        <mat-toolbar-row>
-                <a class="menu-button" routerLink="{{ features }}">Features</a>
-                <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
-        </mat-toolbar-row>
-        <mat-toolbar-row>
-                <a class="menu-button" routerLink="{{ download }}">Download</a>
-        </mat-toolbar-row>
-</mat-toolbar>
+<div fxHide.gt-xs="true">
+        <ul class="toolbar">
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ home }}">Netube</a>
+                </li>
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ features }}">Features</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ download }}">Download</a>
+                </li>
+        </ul>
+</div>
 
 <mat-card>
         <mat-card-content>
@@ -419,39 +431,48 @@
 </mat-card>
 
 <div fxShow="true" fxHide.lt-sm="true">
-        <mat-toolbar color="primary">
-                <a class="menu-button" routerLink="{{ about }}">About</a>
-                <a class="menu-button" routerLink="{{ blog }}">Blog</a>
-                <a class="menu-button" routerLink="{{ privacy }}">Privacy Policy</a>
-                <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
-                <span class="fill-remaining-space"></span>
-                <div class="footer-note-text">
-                        Copyright © {{ copyrightYears }} <a class="light-color" href="https://djeung.org">Bing Djeung</a>
-                        <br>
-                        Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
-                </div>
-        </mat-toolbar>
+        <ul class="toolbar">
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ about }}">About</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ blog }}">Blog</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ privacy }}">Privacy Policy</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
+                </li>
+                <li class="float-right">
+                        <div class="footer-note-text">
+                                Copyright © {{ copyrightYears }} <a class="light-color" href="https://djeung.org">Bing Djeung</a>
+                                <br>
+                                Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
+                        </div>
+                </li>
+        </ul>
 </div>
-
-<mat-toolbar color="primary" fxLayout="column" fxHide.gt-xs="true">
-        <mat-toolbar-row>
-                <a class="menu-button" routerLink="{{ about }}">About</a>
-                <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ blog }}">Blog</a>
-        </mat-toolbar-row>
-        <mat-toolbar-row>
-                <a class="menu-button" routerLink="{{ privacy }}">Privacy Policy</a>
-                <span class="fill-remaining-space"></span>
-                <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
-        </mat-toolbar-row>
-        <mat-toolbar-row>
-                <span class="fill-remaining-space"></span>
-                <div class="footer-note-text">
-                        Copyright © {{ copyrightYears }} <a class="light-color" href="https://djeung.org">Bing Djeung</a>
-                        <br>
-                        Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
-                </div>
-                <span class="fill-remaining-space"></span>
-        </mat-toolbar-row>
-        <mat-toolbar-row></mat-toolbar-row>
-</mat-toolbar>
+<div fxHide.gt-xs="true">
+        <ul class="toolbar">
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ blog }}">Blog</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ about }}">About</a>
+                </li>
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ privacy }}">Privacy Policy</a>
+                </li>
+                <li>
+                        <div class="footer-note-text-mobile">
+                                Copyright © {{ copyrightYears }} <a class="light-color" href="https://djeung.org">Bing Djeung</a>
+                                <br>
+                                Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
+                        </div>
+                </li>
+        </ul>
+</div>

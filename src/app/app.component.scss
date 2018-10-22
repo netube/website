@@ -2,6 +2,23 @@
         flex: 1 1 auto;
 }
 
+.float-left {
+        float: left;
+}
+.float-right {
+        float: right;
+}
+
+ul.toolbar {
+        display: inline-block;
+        background-color: #424242;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+}
+
 img.logo-mark {
         width: 1.2em;
         padding-right: 0.3em;
@@ -32,10 +49,20 @@ div.heading-card-text-content {
 }
 
 div.footer-note-text {
-        padding-left: 1em;
-        padding-right: 1em;
-        font-size: 0.5em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        font-size: 0.6em;
         line-height: 1.6em;
+        color: #ffffff;
+}
+div.footer-note-text-mobile {
+        text-align: center;
+        padding-bottom: 4em;
+        font-size: 0.6em;
+        line-height: 1.6em;
+        color: #ffffff;
 }
 
 div.markdown-content {
@@ -53,11 +80,13 @@ a.light-color:hover {
 
 a.menu-button {
         display: inline-block;
-        font-size: 0.7em;
+        font-size: 0.8em;
         font-weight: normal;
         color: #ffffff;
         padding-left: 2em;
         padding-right: 2em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
 }
 a.menu-button:hover {
         color: #eeeeee;
