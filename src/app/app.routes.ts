@@ -9,8 +9,6 @@ import { DocumentationComponent } from "./documentation/documentation.component"
 import { DownloadComponent } from "./download/download.component";
 import { DownloadIosComponent } from "./download/ios/download.ios.component";
 
-import { HelpComponent } from "./help/help.component";
-
 import { SourcesComponent } from "./sources/sources.component";
 import { SourcesIosComponent } from "./sources/ios/sources.ios.component";
 
@@ -27,7 +25,6 @@ export const routes: Routes = [
         { path: "documentation", component: DocumentationComponent },
         { path: "download", component: DownloadComponent },
         { path: "download/ios", component: DownloadIosComponent },
-        { path: "help", component: HelpComponent },
         { path: "sources", component: SourcesComponent },
         { path: "sources/ios", component: SourcesIosComponent },
         { path: "about", component: AboutComponent },

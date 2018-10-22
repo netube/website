@@ -17,8 +17,6 @@ import { DocumentationComponent } from "./documentation/documentation.component"
 import { DownloadComponent } from "./download/download.component";
 import { DownloadIosComponent } from "./download/ios/download.ios.component";
 
-import { HelpComponent } from "./help/help.component";
-
 import { SourcesComponent } from "./sources/sources.component";
 import { SourcesIosComponent } from "./sources/ios/sources.ios.component";
 
@@ -37,7 +35,6 @@ import { Http404Component } from "./http404/http404.component";
                 DocumentationComponent,
                 DownloadComponent,
                 DownloadIosComponent,
-                HelpComponent,
                 SourcesComponent,
                 SourcesIosComponent,
                 AboutComponent,

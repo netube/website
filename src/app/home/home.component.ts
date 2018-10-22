@@ -12,7 +12,6 @@ export class HomeComponent implements OnInit {
         features: string;
         documentation: string;
         download: string;
-        help: string;
         sources: string;
         about: string;
         blog: string;
@@ -32,7 +31,6 @@ export class HomeComponent implements OnInit {
                 this.features = "features"
                 this.documentation = "documentation";
                 this.download = "download";
-                this.help = "help";
                 this.sources = "sources";
                 this.about = "about";
                 this.blog = "blog";
