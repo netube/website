@@ -9,7 +9,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { AppRoutes } from "./app.routes";
 import { AppComponent } from "./app.component";
-
+import { AppBaseComponent } from "./app.base.component";
 import { HomeComponent } from "./home/home.component";
 import { FeaturesComponent } from "./features/features.component";
 import { DocumentationComponent } from "./documentation/documentation.component";
@@ -30,6 +30,7 @@ import { Http404Component } from "./http404/http404.component";
 @NgModule({
         declarations: [
                 AppComponent,
+                AppBaseComponent,
                 HomeComponent,
                 FeaturesComponent,
                 DocumentationComponent,
