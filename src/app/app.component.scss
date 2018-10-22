@@ -9,9 +9,13 @@
         float: right;
 }
 
+.absolute-position {
+        position: absolute;
+}
+
 ul.toolbar {
         display: inline-block;
-        background-color: #424242;
+        background-color: #404040;
         list-style-type: none;
         margin: 0;
         padding: 0;
