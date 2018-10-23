@@ -2,10 +2,9 @@ import { BrowserModule, Title } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from "@angular/core";
 import { HttpClientModule } from "@angular/common/http"
-
-import { AppMaterialModule } from "./app.material.module";
-import { MarkdownModule } from "ngx-markdown";
 import { FlexLayoutModule } from "@angular/flex-layout";
+
+import { MarkdownModule } from "ngx-markdown";
 
 import { AppRoutes } from "./app.routes";
 import { AppComponent } from "./app.component";
@@ -48,10 +47,9 @@ import { Http404Component } from "./http404/http404.component";
         imports: [
                 BrowserModule,
                 BrowserAnimationsModule,
-                AppMaterialModule,
                 HttpClientModule,
-                MarkdownModule.forRoot(),
                 FlexLayoutModule,
+                MarkdownModule.forRoot(),
                 AppRoutes
         ],
         providers: [Title],
