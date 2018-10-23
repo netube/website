@@ -2,6 +2,11 @@
         flex: 1 1 auto;
 }
 
+.inline-block {
+        display: inline-block;
+        text-align: left;
+}
+
 .float-left {
         float: left;
 }
@@ -11,6 +16,10 @@
 
 .absolute-position {
         position: absolute;
+}
+
+.fixed-width-text {
+        font-family: "Liberation Mono", "SF Mono", "Roboto Mono", Consolas, Menlo, monospace;
 }
 
 ul.toolbar {
@@ -65,8 +74,8 @@ a.link-button {
         display: inline-block;
         padding-left: 1em;
         padding-right: 1em;
-        padding-top: 0.2em;
-        padding-bottom: 0.2em;
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
 }
 
 div.footer-note-text {
