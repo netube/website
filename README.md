@@ -3,8 +3,8 @@ Source code to generate https://netube.org
 
 ## How to build
 ### Requirements
-- Node 10.0.0+  
-- Angular CLI 6.0.0+  
+- Node 11+  
+- Angular CLI 7+  
 
 ### Build
 
@@ -22,7 +22,7 @@ MIT License. © [Bing Djeung](https://djeung.org) .
 ```
 MIT License
 
-Copyright (c) 2018 Bing Djeung
+Copyright (c) 2018-2019 Bing Djeung
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

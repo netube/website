@@ -2,7 +2,7 @@
 
 html, body {
         margin: 0;
-        font-family: Roboto, "Source Sans Pro", sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Source Sans Pro", sans-serif;
         line-height: 1.6em;
 }
 
@@ -25,7 +25,7 @@ code[class*="language-"],
 pre[class*="language-"] {
         color: black;
         background: none;
-        font-family: CamingoCode, "Liberation Mono", "Roboto Mono", "Fira Mono", monospace;
+        font-family: CamingoCode, "SF Mono", "Liberation Mono", "Roboto Mono", Consolas, Menlo, monospace;
         text-align: left;
         white-space: pre;
         word-spacing: normal;
