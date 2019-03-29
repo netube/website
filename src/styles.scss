@@ -2,7 +2,8 @@
 
 html, body {
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Source Sans Pro", sans-serif;
+        /* font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Source Sans Pro", sans-serif; */
+        font-family: sans-serif;
         line-height: 1.6em;
 }
 
@@ -20,7 +21,9 @@ hr {
         border-bottom: 1px solid #cccccc;
 }
 
-/* prism.css */
+
+/*  prism.js  ||  https://prismjs.com  ||  Copyright (c) 2012 Lea Verou  ||  MIT License  ||  https://github.com/PrismJS/prism  */
+
 code[class*="language-"],
 pre[class*="language-"] {
         color: black;
