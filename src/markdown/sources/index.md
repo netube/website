@@ -4,8 +4,7 @@
 [github.com/netube](https://github.com/netube) is our GitHub Organization.  
 
 ### Netube program source code
-- [Netube](https://github.com/netube/netube)  
-- [Swiftube](https://github.com/netube/swiftube)(Swift port of Netube)  
+- [netube](https://github.com/netube/netube)  
 
 ### Client apps source code
 - [Netube for Android](https://github.com/netube/netube-android)  
