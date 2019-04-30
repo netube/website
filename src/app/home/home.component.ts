@@ -10,7 +10,7 @@ import { AppBaseComponent } from "../app.base.component";
 
 export class HomeComponent extends AppBaseComponent {
 
-        constructor(private titleService: Title ) {
+        constructor(private titleService: Title) {
                 super();
                 this.titleService.setTitle("Netube");
         }

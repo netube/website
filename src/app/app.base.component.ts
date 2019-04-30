@@ -30,9 +30,9 @@ export class AppBaseComponent implements OnInit {
         readonly netubeOnMacAppStore: string = "https://itunes.apple.com";
         readonly netubeOnMicrosoftStore: string = "https://www.microsoft.com";
 
-        readonly copyrightYears: string = "2018-" + this.getCurrentYear();
+        readonly copyrightYears: string = "2018-" + AppBaseComponent.getCurrentYear();
 
-        private getCurrentYear(): string {
+        private static getCurrentYear(): string {
                 const date: Date = new Date();
                 const year: number = date.getFullYear();
                 return year.toString();
