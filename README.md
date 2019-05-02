@@ -3,7 +3,7 @@ Source code to generate https://netube.org
 
 ## How to build
 ### Requirements
-- Node 11+  
+- Node 10+  
 - Angular CLI 7+  
 
 ### Build
