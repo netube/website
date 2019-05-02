@@ -52,45 +52,45 @@ or directly download form this site: [.EXE](https://netube.org/download/netube.e
 You can install Netube by a package manager on your system, or build it from source code.  
 Running commands blow may need the superuser privilege.  
 
+- ### FreeBSD  
+Install via PKG  
+```
+pkg install netube
+```
+
 - ### Fedora
 Install via DNF  
-```bash
+```
 dnf install netube
 ```
 
 - ### CentOS / RHEL
 Install via YUM
-```bash
+```
 yum install netube
 ```
 
 - ### Debian / Ubuntu
 Install via APT  
-```bash
+```
 apt install netube
 ```
 
 - ### Arch Linux  
 Install via Pacman  
-```bash
+```
 pacman -S netube
 ```
 
 - ### openSUSE
 Install via  Zypper
-```bash
-zypper install netube
 ```
-
-- ### FreeBSD  
-Install via PKG  
-```bash
-pkg install netube
+zypper install netube
 ```
 
 - ### macOS  
 Install via [Homebrew](https://brew.sh) (without superuser privilege)  
-```bash
+```
 brew install netube
 ```
 
