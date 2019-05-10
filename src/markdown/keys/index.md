@@ -34,7 +34,3 @@ rC8EAQDdh+e7Fu80OmpFVCRjyICKgxd25Wd6C5ozx1fQnN5pBA==
 =sglL
 -----END PGP PUBLIC KEY BLOCK-----
 ```
-
-Plain ASCII text files:  
-[.asc](https://netube.org/keys/gpg.asc)  
-[.txt](https://netube.org/keys/gpg.txt)  

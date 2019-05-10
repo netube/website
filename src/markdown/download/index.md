@@ -1,5 +1,5 @@
 # Download
-Download the Netube clinet apps or the Netube programs for your platform  
+Download the Netube client apps or the Netube programs for your platform  
 
 ## Download Client apps
 All apps blow are the open source apps, you can get the source code
