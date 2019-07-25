@@ -37,7 +37,7 @@ or directly download form this site: [.APP.ZIP](https://netube.org/download/netu
 ### Netube for Windows
 <a href="https://www.microsoft.com"><img src="images/badge-microsoft-store.png" alt="Netube Microsoft Store" width="120px"/></a>
 <br> 
-Compatibility: Windows 10(64-bit), 1903+  
+Compatibility: Windows 10 (64-bit), 1903+  
 You can also download the executable file on the [GitHub releases page](https://github.com/netube/netube-windows/releases) , 
 or directly download form this site: [.EXE](https://netube.org/download/netube.exe)  
 
