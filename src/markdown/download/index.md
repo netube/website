@@ -10,7 +10,7 @@ on [netube.org/sources](https://netube.org/sources) or [GitHub](https://github.c
 ### Netube for Android
 <a href="https://play.google.com"><img src="images/badge-google-play.png" alt="Netube Google Play" width="120px"/></a>
 <br>
-Compatibility: Android 9+  
+Compatibility: Android 10+  
 You can also download the APK file on the [GitHub releases page](https://github.com/netube/netube-android/releases) , 
 or directly download form this site: [.APK](https://netube.org/download/netube.apk)  
 
@@ -19,7 +19,7 @@ or directly download form this site: [.APK](https://netube.org/download/netube.a
 ### Netube for iOS  
 <a href="https://itunes.apple.com"><img src="images/badge-app-store.png" alt="Netube App Store" width="120px"/></a>
 <br>
-Compatibility: iOS 12+, compatible with iPhone, iPad and iPod Touch   
+Compatibility: iOS 13+, compatible with iPhone, iPad and iPod Touch   
 You can also download the IPA file on the [GitHub releases page](https://github.com/netube/netube-ios/releases) , 
 or directly download form this site: [.IPA.ZIP](https://netube.org/download/netube.ipa.zip)  
 
@@ -28,7 +28,7 @@ or directly download form this site: [.IPA.ZIP](https://netube.org/download/netu
 ### Netube for macOS
 <a href="https://itunes.apple.com"><img src="images/badge-mac-app-store.png" alt="Netube Mac App Store" width="120px"/></a>
 <br>
-Compatibility: macOS 10.14+  
+Compatibility: macOS 10.15+  
 You can also download the Application file on the [GitHub releases page](https://github.com/netube/netube-macosx/releases) , 
 or directly download form this site: [.APP.ZIP](https://netube.org/download/netube.app.zip)  
 
@@ -37,7 +37,7 @@ or directly download form this site: [.APP.ZIP](https://netube.org/download/netu
 ### Netube for Windows
 <a href="https://www.microsoft.com"><img src="images/badge-microsoft-store.png" alt="Netube Microsoft Store" width="120px"/></a>
 <br> 
-Compatibility: Windows 10, 1803+(build 17134+), 64-bit  
+Compatibility: Windows 10(64-bit), 1903+  
 You can also download the executable file on the [GitHub releases page](https://github.com/netube/netube-windows/releases) , 
 or directly download form this site: [.EXE](https://netube.org/download/netube.exe)  
 
