@@ -1,7 +1,3 @@
-.fill-remaining-space {
-        flex: 1 1 auto;
-}
-
 .inline-block {
         display: inline-block;
         text-align: left;
@@ -18,18 +14,14 @@
         position: absolute;
 }
 
-.fixed-width-text {
-        font-family: "SF Mono", "Liberation Mono", "Roboto Mono", Consolas, Menlo, monospace;
-}
-
 ul.toolbar {
         display: inline-block;
-        background-color: #404040;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         width: 100%;
+        background-color: black;
 }
 
 img.logo-mark {
@@ -46,10 +38,6 @@ img.card-image {
 
 div.center-align {
         text-align: center;
-}
-
-.lightgray-background {
-        background-color: #fcfcfc;
 }
 
 div.card {
@@ -85,14 +73,14 @@ div.footer-note-text {
         padding-right: 1.5em;
         font-size: 0.6em;
         line-height: 1.6em;
-        color: #ffffff;
+        color: white;
 }
 div.footer-note-text-mobile {
         text-align: center;
         padding-bottom: 4em;
         font-size: 0.6em;
         line-height: 1.6em;
-        color: #ffffff;
+        color: white;
 }
 
 div.markdown-content {
@@ -101,23 +89,22 @@ div.markdown-content {
 }
 
 a.light-color {
-        text-decoration: none;
-        color: #ffffff;
+        color: white;
 }
 a.light-color:hover {
-        color: #eeeeee;
+        color: #1F9BF3;
 }
 
 a.menu-button {
         display: inline-block;
         font-size: 0.8em;
         font-weight: normal;
-        color: #ffffff;
+        color: white;
         padding-left: 2em;
         padding-right: 2em;
         padding-top: 1.5em;
         padding-bottom: 1.5em;
 }
 a.menu-button:hover {
-        color: #eeeeee;
+        color: #1F9BF3;
 }

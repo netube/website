@@ -48,10 +48,6 @@
                                                 ],
                                                 "styles": [
                                                         "src/styles.scss"
-                                                ],
-                                                "scripts": [
-                                                        "node_modules/prismjs/prism.js",
-                                                        "node_modules/prismjs/components/prism-bash.js"
                                                 ]
                                         },
                                         "configurations": {
