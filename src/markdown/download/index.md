@@ -20,8 +20,6 @@ or directly download form this site: [.APK](https://netube.org/download/netube.a
 <a href="https://itunes.apple.com"><img src="images/badge-app-store.png" alt="Netube App Store" width="120px"/></a>
 <br>
 Compatibility: iOS 13+, compatible with iPhone, iPad and iPod Touch   
-You can also download the IPA file on the [GitHub releases page](https://github.com/netube/netube-ios/releases) , 
-or directly download form this site: [.IPA.ZIP](https://netube.org/download/netube.ipa.zip)  
 
 ---
 
@@ -30,7 +28,7 @@ or directly download form this site: [.IPA.ZIP](https://netube.org/download/netu
 <br>
 Compatibility: macOS 10.15+  
 You can also download the Application file on the [GitHub releases page](https://github.com/netube/netube-macosx/releases) , 
-or directly download form this site: [.APP.ZIP](https://netube.org/download/netube.app.zip)  
+or directly download form this site: [.APP.XZ](https://netube.org/download/netube.app.xz)  
 
 ---
 
