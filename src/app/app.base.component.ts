@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { ComponentPortal } from "@angular/cdk/portal";
 
 @Component({
         selector: "app-base",
@@ -40,4 +41,102 @@ export class AppBaseComponent implements OnInit {
 
         constructor() {}
         ngOnInit() {}
+
+        headerContent: ComponentPortal<HeaderContentComponent> = new ComponentPortal(HeaderContentComponent)
+        footerContent: ComponentPortal<FooterContentComponent> = new ComponentPortal(FooterContentComponent)
 }
+
+
+@Component({
+        selector: "app-header-content",
+        template: `<div fxShow="true" fxHide.lt-sm="true">
+        <ul class="toolbar">
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ home }}">Netube</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ features }}">Features</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ download }}">Download</a>
+                </li>
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
+                </li>
+        </ul>
+</div>
+<div fxHide.gt-xs="true">
+        <ul class="toolbar">
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ sources }}">Source Code</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ home }}">Netube</a>
+                </li>
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ documentation }}">Documentation</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ features }}">Features</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ download }}">Download</a>
+                </li>
+        </ul>
+</div>`
+})
+export class HeaderContentComponent extends AppBaseComponent {}
+
+@Component({
+        selector: "app-footer-content",
+        template: `<div fxShow="true" fxHide.lt-sm="true">
+        <ul class="toolbar absolute-position">
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ about }}">About</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ blog }}">Blog</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ privacy }}">Privacy</a>
+                </li>
+                <li class="float-left">
+                        <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
+                </li>
+                <li class="float-right">
+                        <div class="footer-note-text">
+                                Copyright © {{ copyrightYears }} <a class="light-color" href="https://djeung.org">Bing Djeung</a>
+                                <br>
+                                Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
+                        </div>
+                </li>
+        </ul>
+</div>
+<div fxHide.gt-xs="true">
+        <ul class="toolbar absolute-position">
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ blog }}">Blog</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ about }}">About</a>
+                </li>
+                <li class="float-right">
+                        <a class="menu-button" routerLink="{{ terms }}">Terms of Use</a>
+                </li>
+                <li>
+                        <a class="menu-button" routerLink="{{ privacy }}">Privacy</a>
+                </li>
+                <li>
+                        <div class="footer-note-text-mobile">
+                                Copyright © {{ copyrightYears }} <a class="light-color" href="{{ djeung }}">Bing Djeung</a>
+                                <br>
+                                Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
+                        </div>
+                </li>
+        </ul>
+</div>`
+})
+export class FooterContentComponent extends AppBaseComponent {}

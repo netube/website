@@ -3,12 +3,12 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from "@angular/core";
 import { HttpClientModule } from "@angular/common/http"
 import { FlexLayoutModule } from "@angular/flex-layout";
-
+import { PortalModule } from "@angular/cdk/portal";
 import { MarkdownModule } from "ngx-markdown";
 
 import { AppRoutes } from "./app.routes";
 import { AppComponent } from "./app.component";
-import { AppBaseComponent } from "./app.base.component";
+import { AppBaseComponent, HeaderContentComponent, FooterContentComponent } from "./app.base.component";
 import { HomeComponent } from "./home/home.component";
 import { FeaturesComponent } from "./features/features.component";
 import { DocumentationComponent } from "./documentation/documentation.component";
@@ -27,9 +27,20 @@ import { KeysComponent } from "./keys/keys.component";
 import { Http404Component } from "./http404/http404.component";
 
 @NgModule({
+        imports: [
+                BrowserModule,
+                BrowserAnimationsModule,
+                HttpClientModule,
+                FlexLayoutModule,
+                MarkdownModule.forRoot(),
+                AppRoutes,
+                PortalModule
+        ],
         declarations: [
                 AppComponent,
                 AppBaseComponent,
+                HeaderContentComponent,
+                FooterContentComponent,
                 HomeComponent,
                 FeaturesComponent,
                 DocumentationComponent,
@@ -44,16 +55,8 @@ import { Http404Component } from "./http404/http404.component";
                 KeysComponent,
                 Http404Component
         ],
-        imports: [
-                BrowserModule,
-                BrowserAnimationsModule,
-                HttpClientModule,
-                FlexLayoutModule,
-                MarkdownModule.forRoot(),
-                AppRoutes
-        ],
         providers: [Title],
-        entryComponents: [],
+        entryComponents: [HeaderContentComponent, FooterContentComponent],
         bootstrap: [AppComponent]
 })
 export class AppModule { }
