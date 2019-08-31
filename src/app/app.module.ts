@@ -1,14 +1,17 @@
+
 import { BrowserModule, Title } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from "@angular/core";
 import { HttpClientModule } from "@angular/common/http"
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { PortalModule } from "@angular/cdk/portal";
+
 import { MarkdownModule } from "ngx-markdown";
 
-import { AppRoutes } from "./app.routes";
 import { AppComponent } from "./app.component";
+import { AppRoutingModule } from "./app.routing.module";
 import { AppBaseComponent, HeaderContentComponent, FooterContentComponent } from "./app.base.component";
+
 import { HomeComponent } from "./home/home.component";
 import { FeaturesComponent } from "./features/features.component";
 import { DocumentationComponent } from "./documentation/documentation.component";
@@ -33,7 +36,7 @@ import { Http404Component } from "./http404/http404.component";
                 HttpClientModule,
                 FlexLayoutModule,
                 MarkdownModule.forRoot(),
-                AppRoutes,
+                AppRoutingModule,
                 PortalModule
         ],
         declarations: [

@@ -3,11 +3,11 @@ import { ComponentPortal } from "@angular/cdk/portal";
 
 @Component({
         selector: "app-base",
-        templateUrl: "./app.component.html",
+        template: "",
         styleUrls: ["./app.component.scss"]
 })
 
-export class AppBaseComponent implements OnInit {
+export class AppBaseComponent {
         readonly home: string = "/";
         readonly features: string = "/features";
         readonly documentation: string = "/documentation";
@@ -40,7 +40,6 @@ export class AppBaseComponent implements OnInit {
         }
 
         constructor() {}
-        ngOnInit() {}
 
         headerContent: ComponentPortal<HeaderContentComponent> = new ComponentPortal(HeaderContentComponent)
         footerContent: ComponentPortal<FooterContentComponent> = new ComponentPortal(FooterContentComponent)

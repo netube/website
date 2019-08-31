@@ -1,4 +1,4 @@
-import { ModuleWithProviders } from "@angular/core";
+import { NgModule, ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
 import { HomeComponent } from "./home/home.component";
@@ -18,7 +18,7 @@ import { TermsComponent } from "./terms/terms.component";
 import { KeysComponent } from "./keys/keys.component";
 import { Http404Component } from "./http404/http404.component";
 
-export const routes: Routes = [
+const routes: Routes = [
         { path: "", component: HomeComponent },
         { path: "features", component: FeaturesComponent },
         { path: "documentation", component: DocumentationComponent },
@@ -34,4 +34,8 @@ export const routes: Routes = [
         { path: "**", component: Http404Component}
 ];
 
-export const AppRoutes: ModuleWithProviders = RouterModule.forRoot(routes);
+@NgModule({
+        imports: [RouterModule.forRoot(routes)],
+        exports: [RouterModule]
+})
+export class AppRoutingModule { }

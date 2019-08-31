@@ -1,22 +1,8 @@
-import { Component, NgModule } from "@angular/core";
-import { MarkdownModule } from "ngx-markdown";
-import { FlexLayoutModule } from "@angular/flex-layout";
-
-@NgModule({
-        imports: [
-                MarkdownModule.forChild(),
-                FlexLayoutModule
-        ],
-        declarations:[
-                AppComponent
-        ]
-})
+import { Component } from "@angular/core";
 
 @Component({
         selector: "app-root",
-        templateUrl: "./app.component.html",
+        template: "<router-outlet></router-outlet>",
         styleUrls: ["./app.component.scss"]
 })
-export class AppComponent {
-        constructor() {}
-}
+export class AppComponent {}
