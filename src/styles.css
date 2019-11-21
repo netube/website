@@ -5,7 +5,7 @@ html, body {
 }
 
 pre, code {
-        font-family: "Roboto Mono", "SF Mono", "Liberation Mono", Consolas, Menlo, monospace;
+        font-family: "SF Mono", "Roboto Mono", "Liberation Mono", Consolas, Menlo, monospace;
 }
 pre {
         overflow: auto;
