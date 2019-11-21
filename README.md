@@ -3,7 +3,7 @@ Source code to generate https://netube.org
 
 ## How to build
 ### Requirements
-- Node.js 12+  
+- Node.js 13+  
 - Angular CLI 8+  
 
 ### Build
@@ -17,4 +17,4 @@ ng build --prod
 
 ## License  
 
-MIT License. © [Bing Djeung](https://djeung.org) .  
+MIT License. © [Bing Jeung](https://ososo.io) .  

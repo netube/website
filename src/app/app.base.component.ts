@@ -18,7 +18,7 @@ export class AppBaseComponent {
         readonly privacy: string = "/privacy";
         readonly terms: string = "/terms";
 
-        readonly djeung: string = "https://djeung.org";
+        readonly jeung: string = "https://ososo.io";
         readonly ccBy4Link: string = "https://creativecommons.org/licenses/by/4.0";
 
         readonly netubeOnGithub: string = "https://github.com/netube";
@@ -107,7 +107,7 @@ export class HeaderContentComponent extends AppBaseComponent {}
                 </li>
                 <li class="float-right">
                         <div class="footer-note-text">
-                                Copyright © {{ copyrightYears }} <a class="light-color" href="https://djeung.org">Bing Djeung</a>
+                                Copyright © {{ copyrightYears }} <a class="light-color" href="{{ jeung }}">Bing Jeung</a>
                                 <br>
                                 Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
                         </div>
@@ -130,7 +130,7 @@ export class HeaderContentComponent extends AppBaseComponent {}
                 </li>
                 <li>
                         <div class="footer-note-text-mobile">
-                                Copyright © {{ copyrightYears }} <a class="light-color" href="{{ djeung }}">Bing Djeung</a>
+                                Copyright © {{ copyrightYears }} <a class="light-color" href="{{ jeung }}">Bing Jeung</a>
                                 <br>
                                 Documents licensed under <a class="light-color" href="{{ ccBy4Link }}">CC BY 4.0</a>
                         </div>
