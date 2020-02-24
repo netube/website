@@ -23,8 +23,8 @@ export class AppBaseComponent {
 
         readonly netubeOnGithub: string = "https://github.com/netube";
         readonly netubeOnBitbucket: string = "https://bitbucket.org";
-        readonly netubeOnTwitter: string = "https://twitter.com/NetubeApp";
-        readonly netubeOnMedium: string = "https://medium.com/@netube";
+        readonly netubeOnTwitter: string = "https://twitter.com";
+        readonly netubeOnMedium: string = "https://medium.com";
 
         readonly netubeOnGooglePlay: string = "https://play.google.com";
         readonly netubeOnAppStore: string = "https://itunes.apple.com";
